@@ -22,11 +22,11 @@ body {
 }
 .display-1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5rem;
+  font-size: 4.375rem;
 }
 .display-2 {
   font-family: 'Lora', serif;
@@ -38,11 +38,11 @@ body {
 }
 .display-4 {
   font-family: 'Playfair Display', serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.625rem;
+  font-size: 1.375rem;
 }
 .display-5 {
   font-family: 'Archivo Black', sans-serif;
@@ -54,11 +54,11 @@ body {
 }
 .display-7 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.3;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -67,14 +67,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.8rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.45rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.12rem;
@@ -82,9 +82,9 @@ body {
     line-height: calc( 1.3 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.04rem;
-    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -92,16 +92,16 @@ body {
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .display-1 {
-    font-size: 2.8rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 2.45rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.1 * (1.875rem + (3.5 - 1.875) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-2 {
     font-size: 1.12rem;
@@ -109,9 +109,9 @@ body {
     line-height: calc( 1.3 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-4 {
-    font-size: 1.04rem;
-    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -119,9 +119,9 @@ body {
     line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62))));
   }
 }
 /* Buttons */
@@ -643,13 +643,13 @@ a:hover {
 }
 .form-control {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.3;
   font-weight: 400;
   border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -658,12 +658,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.3;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 blockquote {
   border-color: #ffffff;
@@ -781,7 +781,7 @@ a {
   transition: outline 0.2s ease-in-out;
 }
 .title-4 {
-  font-family: 'Lora', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 4rem;
   line-height: 1.5;
 }
@@ -1523,8 +1523,8 @@ a {
   color: #ffffff;
 }
 .cid-vg4SXT0y52 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #ffffff;
 }
 .cid-vg4SXT0y52 h6 {
@@ -1583,7 +1583,7 @@ a {
   }
 }
 .cid-vg4VZT2ReR {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
@@ -1664,69 +1664,8 @@ a {
 .cid-vg4VZT2ReR .grid-container-2 {
   align-items: flex-start;
 }
-.cid-vg51noxVjv {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-vg51noxVjv .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-vg51noxVjv .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-vg51noxVjv .card-wrapper {
-  border-radius: 4px;
-}
-@media (max-width: 767px) {
-  .cid-vg51noxVjv .card-wrapper {
-    padding: 1.5rem;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-vg51noxVjv .card-wrapper {
-    padding: 2.25rem;
-    padding-top: 18rem;
-    padding-bottom: 18rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-vg51noxVjv .card-wrapper {
-    padding: 4rem;
-    padding-top: 18rem;
-    padding-bottom: 18rem;
-  }
-}
-.cid-vg51noxVjv .wrap {
-  background: url("../../../assets/images/just-met-collage-2.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.cid-vg51noxVjv .wrap .inner-wrap {
-  padding: 40px;
-}
-.cid-vg51noxVjv .card-title {
-  color: #ffffff;
-  text-align: center;
-}
-.cid-vg51noxVjv .mbr-text {
-  color: #000000;
-}
-.cid-vg51noxVjv .mbr-text,
-.cid-vg51noxVjv .mbr-section-btn {
-  color: #ffffff;
-}
 .cid-vg4GEvrf2e {
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -1746,8 +1685,8 @@ a {
   text-align: justify;
 }
 .cid-vg557OyqFr {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
   background-color: #f7f7f7;
 }
 .cid-vg557OyqFr img,
@@ -1772,18 +1711,12 @@ a {
 }
 @media (min-width: 992px) {
   .cid-vg557OyqFr .slide-content .item-content {
-    padding: 2rem 2rem 0;
-  }
-  .cid-vg557OyqFr .slide-content .item-footer {
-    padding: 0 2rem 2rem;
+    padding: 2rem;
   }
 }
 @media (max-width: 991px) {
   .cid-vg557OyqFr .slide-content .item-content {
-    padding: 1rem 1rem 0;
-  }
-  .cid-vg557OyqFr .slide-content .item-footer {
-    padding: 0 1rem 1rem;
+    padding: 1rem;
   }
 }
 .cid-vg557OyqFr .mbr-section-btn {
@@ -2601,7 +2534,7 @@ a {
   }
 }
 .cid-vg6OvLcdff {
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
   background-color: #edefeb;
 }
@@ -3308,7 +3241,7 @@ a {
   }
 }
 .cid-vga1qpXHe5 {
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
   background-color: #edefeb;
 }
@@ -4015,7 +3948,7 @@ a {
   }
 }
 .cid-vg6TMLf4dU {
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
   background-color: #edefeb;
 }
@@ -4722,8 +4655,8 @@ a {
   }
 }
 .cid-vg6SWHuE5S {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
   background-color: #edefeb;
 }
 .cid-vg6SWHuE5S img,
@@ -5429,7 +5362,7 @@ a {
   }
 }
 .cid-vg6Z3MVuvU {
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
   background-color: #edefeb;
 }
@@ -6136,7 +6069,7 @@ a {
   }
 }
 .cid-vgacDW6ZSx {
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 6rem;
   background: #ffffff;
 }
